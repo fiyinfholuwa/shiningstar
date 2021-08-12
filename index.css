@@ -1,0 +1,177 @@
+#header-header{
+  top: 0;
+  display: block;
+  height: 70px;
+  background-color: skyblue;
+  padding: 10px;
+  position: fixed;
+  z-index: 1;
+  display: block;
+  width: 100%;
+  
+}
+
+
+
+/* The sidepanel menu */
+.sidepanel {
+  height: 600px; /* Specify a height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: transparent; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 30px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+}
+
+.icon-menu{
+  background-color: skyblue;
+  margin-top: 5px;
+
+}
+
+.icon-menu-time{
+  font-size: 50px;
+  font-weight: 600;
+  color: white;
+}
+/* The sidepanel links */
+.sidepanel a {
+  padding: 8px 8px 8px 40px;
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style the button that is used to open the sidepanel */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: transparent;
+}
+
+
+
+
+.image{
+  height: 50px;
+  width: 50px;
+  border-radius: 40%;
+  
+}
+
+
+
+#footer{
+  background: #263f49;
+  color: white;
+  height: px;
+}
+
+.social-icon{
+  padding: 4px;
+  border: white 1px solid;
+  border-radius: 10%;
+}
+
+.carousel-item{
+  height: calc(100vh - 110px);
+}
+
+.home-caro{
+  
+  text-align: center;
+
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+
+.home-text{
+  font-size: 24px;
+}
+
+.top-image{
+  background:  linear-gradient(rgba(103, 176, 209, 0.4), rgba(103, 176, 209, 0.5)), url("image/4.jpg") fixed center center;
+  background-size: cover;
+
+  height: 50vh;
+  margin-top: 70px;
+
+}
+
+.blog-image{
+  height: 400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+@media (max-width: 768px) {
+  .home-caro{
+  
+  text-align: center;
+
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 170px;
+}
+
+.blog-image{
+  height: 250px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.home-text{
+  font-size: 18px;
+}
+
+}
+
+.whatsapp{
+  position: fixed;
+  right: 10px;
+  top: 60%;
+
+}
+
+a{
+  text-decoration: none;
+  
+
+}
+
+.whatsapp h5{
+  color: white;
+  background: #20b20f;
+  padding: 5px;
+  border-radius: 10px;
+}
